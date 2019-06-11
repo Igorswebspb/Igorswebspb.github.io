@@ -42,35 +42,31 @@
 </div>
 <!-- navbar -->
 
-<!-- контейнер2 -->
-<div class="container container-2">
-     <div class="row">
-    <div class="col-lg-12">
-      <div class="main_tittle">
-      <h1> Разработка сайтов</h1>
-      </div>
-<button onclick="window.location='contact.html'" type="button" class="btn btn-1 btn-outline-light btn-contact">Связаться со мной</button>
-    </div>
-  </div>
-</div>
-<!-- контейнер2 -->
 
-<!-- контейнер3 -->
-<div class="container container-3 about-me">
-  <div class="row ">
-    <div class="col">
-<div class="aboutme" id="aboutme">
-  <h2>Мой опыт:</h2>
-        <p>Здравствуйте,меня зовут Игорь,c недавних пор я полюбил веб разработку,пока что мой путь в программировании недолгий,где-то около 5-6 месяцев,пытаюсь понять азы в таких программах как: <span class="programms">html bootstrap 4 css  js  php wordpress photoshop</span>.Курсов никаких не проходил,так как считаю,что там поверхностно преподносят знания,а деньги берут немалые,поэтому всю информацию беру из интернета,понимаю,что успехи небольшие и ещё многому предстоит научиться,но я стараюсь прогрессировать. Английский примерно на среднем уровне.</p>
-</div>
-    </div>
-     <div class="col">
-<div class="justify-content-center"><img src="img/iam.png" class="fhoto" alt="me">
-</div>
+<!-- контактная форма -->
+<div class="container contact-container" >
+  <div class="row justify-content-center">
+    <div class="col-sm-6 col-11">
+<div class="contact-form" >
+ <form id="form">
+    
+      <!-- Hidden Required Fields -->
+      <input type="hidden" name="project_name" value="Название сайта">
+      <input type="hidden" name="admin_email" value="ipp_spb@mail.ru">
+      <input type="hidden" name="form_subject" value="связь со мной через контактную форму">
+      <!-- END Hidden Required Fields -->
+    
+      <input type="text" class="textbox" name="Name" placeholder="Ваше имя..." required><br>
+      <input type="text" class="textbox" name="E-mail" placeholder="Ваша почта..." required><br>
+      <input type="text" class="phone2" name="Phone" placeholder="Ваш номер телефона..."><br>
+      <input type="text" class="message" name="textarea" placeholder="Ваше сообщение..."><br>
+      <button class="button1">Отправить</button>
+    
+    </form>
     </div>
   </div>
 </div>
-<!-- контейнер3 -->
+<!-- контактная форма -->
 
 <!-- контейнер4 -->
 <div class="container container-4">
