@@ -1,0 +1,198 @@
+
+body{
+	background: url(../img/background1.jpg);
+}
+ul,li{
+	display: block;
+	margin:0;
+	padding: 0;
+}
+.container{
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* навигация */
+.section-nav{
+	padding: 0;
+}
+.navbar-nav{
+	margin-right:30px; 
+}
+.navbar-nav li{
+	font-family: 'Oswald', sans-serif;
+	margin-left: 30px;
+}
+
+.navbar-brand{
+	margin-left: 20px;
+}
+/* навигация */
+
+/* контейнер2 */
+.container-2{
+	padding: 0;
+	height: 715px;
+background: url(../img/spb.jpg) no-repeat;
+-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+
+h1{
+	padding-top: 100px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 100;
+font-family: 'Noto Sans HK', sans-serif;
+font-family: 'Neucha', cursive;
+letter-spacing: 3px;
+}
+.main_tittle{
+text-align: center;
+}
+.btn-1{ 
+	display: block;
+	margin:0 auto; 
+	margin-top:300px;
+}
+/* контейнер2 */
+
+/* контейнер3 */
+.container-3{
+background: #fff;
+padding: 0; 
+}
+.fhoto{
+	display: block;
+	width: 200px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.aboutme{
+	width: 350px;
+	height: 380px;
+	box-shadow: -10px 10px 10px 10px rgba(0,0,0,0.5);
+	margin:0 auto; 
+	margin-top: 20px;
+	border-radius:10px;
+	background: url(../img/about.jpg) no-repeat;
+	font-family: 'Pacifico', cursive; 
+}
+.aboutme h2{
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: -5px;
+	font-size: 25px;
+
+}
+.aboutme p{
+	padding: 5px; 
+	font-size: 16px;
+}
+.programms{
+	color: #0b5ce0;
+}
+/* контейнер3 */
+
+/* контейнер4 */
+.container-4{
+	background-image: url(../img/footer.jpg);
+}
+.my-mail{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.my-mail a{
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+.arrow-up  a i{
+	color:#fff;
+	font-size: 30px;
+	padding-top: 35px;
+	padding-bottom: 40px;
+	text-align: center;
+}	
+/* контейнер4 */
+
+/* контейнер с моими работами */
+.container-my-works{
+	background: url(../img/abstract.jpg);
+	padding: 0;
+}
+.tittle-my-works h3{
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+	padding-top: 118px;
+	padding-bottom: 30px;
+	color: #fff;
+	font-size: 43px;
+}
+.my-works{
+    height: 350px;
+    width: 450px;
+    background-size:cover;
+    background-position:center;  
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.my-works:hover{
+	transition: 1s ;
+	transform: scale(1.03);
+}
+.row-my-works{
+padding-bottom: 100px;
+padding-top: 100px;
+}
+/* контейнер с моими работами */
+
+
+/* media */
+@media screen and (max-width: 992px){
+.container-2{
+	height: 100%;
+}	
+.main_tittle h1{
+font-size: 1.5em;
+margin-top:-50px;
+}
+.btn-contact{
+margin-top: 25px;
+margin-bottom: 25px;
+}
+.my-works{
+	 height: 250px;
+	 width: 300px;
+	 margin:0 auto;
+}
+.my-works-wp{
+	margin-top: 50px;
+}
+.row-my-works{
+padding-bottom: 50px;
+padding-top: 10px;
+}
+.tittle-my-works h3{
+	padding-top: 50px;
+}
+.my-mail{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.arrow-up  a i{
+	color:#fff;
+	font-size: 30px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	display: block;
+	align-items: center;
+}
+
+
+/* media */
